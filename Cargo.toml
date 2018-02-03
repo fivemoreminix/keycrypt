@@ -1,0 +1,14 @@
+[package]
+name = "keycrypt"
+version = "2.0.0"
+authors = ["Luke Wilson"]
+
+[profile.release]
+panic = "abort"
+lto = true
+
+[dependencies]
+structopt = "0.1"
+structopt-derive = "0.1"
+rand = "0.4"
+rayon = "0.9"

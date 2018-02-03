@@ -1,0 +1,15 @@
+.dub
+docs.json
+target/
+__dummy.html
+docs/
+keycrypt.so
+keycrypt.dylib
+keycrypt.dll
+keycrypt.a
+keycrypt.lib
+keycrypt-test-*
+*.exe
+*.o
+*.obj
+*.lst
